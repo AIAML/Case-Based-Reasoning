@@ -5,7 +5,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 def main():
     # First Step We Get .csv file for iris input dataset using pandas
-    iris, cases = pd.read_csv('input/iris.csv'), pd.read_csv('input/cases.csv')
+    iris, cases = pd.read_csv('iris.csv'), pd.read_csv('cases.csv')
 
     print('\n> Initial iris')
     print(f'\n{iris}')
@@ -38,7 +38,7 @@ def main():
     print(f'\n{iris}')
 
     # Save 'iris' output as file
-    iris.to_csv('output/outknn.csv', index=False)
+    iris.to_csv('outknn.csv', index=False)
 
 
 # Call

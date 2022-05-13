@@ -4,8 +4,8 @@ import pandas as pd
 from sklearn import tree
 
 def main():
-    # First Step We Get .csv file for iris input dataset using pandas
-    iris, cases = pd.read_csv('input/iris.csv'), pd.read_csv('input/cases.csv')
+    # First Step We Get .csv file for iris inputinput dataset using pandas
+    iris, cases = pd.read_csv('iris.csv'), pd.read_csv('cases.csv')
 
     print('\n> Initial iris')
     print(f'\n{iris}')
@@ -37,7 +37,7 @@ def main():
     print(f'\n{iris}')
 
     # Save 'iris' output as file
-    iris.to_csv('output/outDTs.csv', index=False)
+    iris.to_csv('outDTs.csv', index=False)
 
 
 # Call
