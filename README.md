@@ -6,10 +6,10 @@ Case based reasoning has been widely used in variety of AI approaches. Case base
 
 Retrieval: Retrieval is an essential phase in CBR. We select cases that are more relavant to specific problem. In order to select similar Cases various machine learning approaches can be used in this step.
 
-Reuse: This step Map finded solution in Retrieval step to the target problem. That is to say, We are adopting our solution to fit the new condition.
+ - Reuse: This step Map finded solution in Retrieval step to the target problem. That is to say, We are adopting our solution to fit the new condition.
 
-Revise: In this step we get the feedback from realworld and then if it's necessary, revise about proposed solution.
+ - Revise: In this step we get the feedback from realworld and then if it's necessary, revise about proposed solution.
 
-Retain: In this step we store adapted solution as a new case in memory.
+ - Retain: In this step we store adapted solution as a new case in memory.
 
 Author Majid Hemmati
