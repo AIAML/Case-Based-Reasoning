@@ -12,4 +12,14 @@ Case based reasoning has been widely used in variety of AI approaches. Case base
 
  - Retain: In this step we store adapted solution as a new case in memory.
 
+
+## About Project
+We Simply use iris dataset for case based reasoning. We implemented plenty of methods for retrieval such as:
+ - CovarianceMatrix
+ - Decision Tree
+ - Random Forest
+ - SVM
+ - KNN
+ - naiveBayes
+
 Author Majid Hemmati
