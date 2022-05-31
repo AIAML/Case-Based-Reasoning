@@ -1,4 +1,3 @@
-# Import
 import numpy as np
 import pandas as pd
 from sklearn.naive_bayes import GaussianNB
@@ -17,7 +16,6 @@ def main():
     problems = pd.get_dummies(cases)
 
     print('\n> Calculating\n')
-
     for i in range(problems.shape[0]):
         if i != problems.shape[0]:
             case_row = problems.loc[i:i+1, :]
