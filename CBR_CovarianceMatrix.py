@@ -3,9 +3,6 @@ import numpy as np
 import pandas as pd
 from scipy.spatial import distance
 from sklearn.neighbors import KNeighborsClassifier
-
-
-# Main
 def main():
     # First Step We Get .csv file for iris input dataset using pandas
     iris, cases = pd.read_csv('input/iris.csv'), pd.read_csv('input/cases.csv')
