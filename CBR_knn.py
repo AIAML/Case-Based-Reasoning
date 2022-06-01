@@ -39,8 +39,6 @@ def main():
 
     # Save 'iris' output as file
     iris.to_csv('outknn.csv', index=False)
-
-
 # Call
 if __name__ == '__main__':
     main()
