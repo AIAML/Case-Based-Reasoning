@@ -5,7 +5,6 @@ from sklearn.naive_bayes import GaussianNB
 def main():
     # First Step We Get .csv file for iris input dataset using pandas
     iris, cases = pd.read_csv('iris.csv'), pd.read_csv('cases.csv')
-
     print('\n> Initial iris')
     print(f'\n{iris}')
     base = iris.iloc[:, range(iris.shape[1] - 1)]
