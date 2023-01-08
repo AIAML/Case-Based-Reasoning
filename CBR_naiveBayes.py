@@ -20,7 +20,6 @@ def main():
             case_row = problems.loc[i:i+1, :]
         else:
             case_row = problems.loc[i-1:i, :]
-
         clf = GaussianNB()
         clf.fit(base.to_numpy(), iris_classes)
         y_pred = clf.predict(case_row.to_numpy())
