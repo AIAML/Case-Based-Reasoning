@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
-
 def main():
     # First Step We Get .csv file for iris input dataset using pandas
     iris, cases = pd.read_csv('iris.csv'), pd.read_csv('cases.csv')
